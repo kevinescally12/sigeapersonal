@@ -13,6 +13,10 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(
@@ -21,6 +25,11 @@ import jakarta.validation.constraints.NotNull;
         @Index(name = "idx_inscripcion" , columnList = "usuario_id,actividad_id" , unique = true)
     }
 )
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class InscripcionEntity {
     
     @Id
