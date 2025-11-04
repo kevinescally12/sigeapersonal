@@ -1,7 +1,7 @@
 package com.zentry.sigea.modules.sesiones.infrastructure.database.mappers;
 
 import com.zentry.sigea.modules.sesiones.core.entities.Sesion;
-import com.zentry.sigea.infrastructure.database.entities.SesionEntity;
+import com.zentry.sigea.modules.sesiones.infrastructure.database.entities.SesionEntity;
 
 import java.util.List;
 import java.util.stream.Collectors;
